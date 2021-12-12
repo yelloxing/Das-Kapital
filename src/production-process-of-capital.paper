@@ -1,0 +1,32 @@
+<template>
+    <div class='doc-view' id='root-view'>
+        <header id="fixed-top">资本的生产过程</header>
+        <h1 id='fixed-sphhb'>
+            商品和货币
+        </h1>
+        <h2 id='fixed-sp'>
+            商品
+        </h2>
+        <p>
+
+        </p>
+        <h2 id='fixed-ld'>
+            劳动
+        </h2>
+        <p>
+
+        </p>
+        <h2 id='fixed-jzxshjhjz'>
+            价值形式或交换价值
+        </h2>
+        <p>
+
+        </p>
+        <h2 id='fixed-hbxs'>
+            货币形式
+        </h2>
+        <p>
+
+        </p>
+    </div>
+</template>

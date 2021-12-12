@@ -1,0 +1,48 @@
+{
+  "name": "das-kapital",
+  "version": "0.1.0",
+  "description": "资本论，包括资本的生产过程、资本的流通过程、资本主义生产的总过程等知识。",
+  "scripts": {
+    "start": "npm install && npm run dev",
+    "dev": "webpack-dev-server --config webpack.dev.js",
+    "build": "nodejs -d ./dist && webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knowpedia/Das-Kapital.git"
+  },
+  "keywords": [
+    "Das-Kapital",
+    "knowpedia"
+  ],
+  "author": "你好2007",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/knowpedia/Das-Kapital/issues"
+  },
+  "homepage": "https://knowpedia.github.io/Das-Kapital",
+  "dependencies": {
+    "@hai2007/polyfill": "0.1.1",
+    "@hai2007/style": "^0.3.0",
+    "@hai2007/tool": "^1.0.0",
+    "knowpedia": "1.0.0",
+    "quick-paper": "^1.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@hai2007/algorithm": "^0.7.3",
+    "@hai2007/nodejs": "^2.1.0",
+    "autoprefixer": "^9.7.1",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^2.1.1",
+    "file-loader": "^4.2.0",
+    "postcss": "^7.0.21",
+    "postcss-loader": "^3.0.0",
+    "url-loader": "^2.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^4.2.2"
+  }
+}
