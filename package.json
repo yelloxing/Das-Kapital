@@ -1,6 +1,6 @@
 {
   "name": "das-kapital",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "资本论，包括资本的生产过程、资本的流通过程、资本主义生产的总过程等知识。",
   "scripts": {
     "start": "npm install && npm run dev",
