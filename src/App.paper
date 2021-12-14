@@ -22,16 +22,6 @@
                                         劳动
                                     </h4>
                                 </li>
-                                <li>
-                                    <h4 @click='doScroll("jzxshjhjz")'>
-                                        价值形式或交换价值
-                                    </h4>
-                                </li>
-                                <li>
-                                    <h4 @click='doScroll("hbxs")'>
-                                        货币形式
-                                    </h4>
-                                </li>
                             </ul>
                         </li>
                     </ul>
