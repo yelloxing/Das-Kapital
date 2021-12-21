@@ -1,7 +1,4 @@
 import QuickPaper from 'quick-paper';
-import MathFormula from 'knowpedia/mathFormula';
-
-QuickPaper.use(MathFormula);
 
 // 兼容文件
 import '@hai2007/polyfill/Promise.js';
